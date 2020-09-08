@@ -1,0 +1,160 @@
+body{
+    font-family: koho;
+}
+
+/* /////////////////////////////////// NavBar //////////////////////////////////// */
+
+.bg-color-container{
+    background: rgba(252, 255, 102, 0.1);
+}
+
+.link-donar{
+    cursor: pointer;
+    border: none;    
+    color : white!important;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, .30);
+    background-color: #A4CAED !important;
+}
+.bg-nav-sticky{
+    background-color: rgb(255, 250, 202);
+    
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    
+    overflow-y: scroll;
+}
+/* /////////////////////////////////// NavBar //////////////////////////////////// */
+
+/* //////////////////////////////////  carousel //////////////////////////////////////// */
+.text-carousel{
+    
+    color: mix(#fff, #e91e63, 85%);
+    font-size: calc(1em + 3vw) ;  
+    font-weight: 900;
+    text-shadow: 2px 2px 2px black;
+    
+    
+}
+
+.fsize-carousel{
+    font-size: 25px !important;
+}
+
+/* //////////////////////////////////  carousel //////////////////////////////////////// */
+
+/* //////////////////////////////////  container-info-Maria //////////////////////////////////////// */
+.mt-element{
+    margin-top: 20px;
+}
+/* //////////////////////////////////  container-info-Maria (nosotros)//////////////////////////////////////// */
+.shadow {
+    box-shadow: 0 7px 25px rgba(0, 0, 0, .30);
+}
+
+.shadow-container {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, .30);
+}
+
+.radius{
+    border-radius: 50%;
+    
+}
+
+.background-container{
+    background-image: url('/images/background-form.jpg');
+    background-size: cover;
+}
+
+.color1{
+    background-color: #FDE1A9;
+}
+
+.color2{
+    background-color: #F89D70;
+}
+
+.color3{
+    background-color: #D5544B;
+}
+
+.color4{
+    background-color: #A4CAED;
+}
+
+.color5{
+    background-color: #BADCF6;
+    
+}
+
+.color6{
+    background-color: #BADCF6;
+    
+}
+.color7{
+    background-color: #E3EAF3;
+    
+}
+
+.f-size{
+    font-size: 30px;
+}
+
+.buttons-donate{
+    font-weight: bold !important ;
+    background-color: #A4CAED !important;
+    color: white !important;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, .30);
+}
+.buttons-donate i{
+    font-size: 50px;
+}
+
+/* /////////////////////////// Email-Form ///////////////////// */
+
+.text-email-form{
+    font-weight: bold;
+    font-size : 40px;
+    
+}
+
+.text-stiles{
+    font-style: italic;
+    color: white;
+}
+.bg-website {
+    background-color: #e7d9bc;
+}
+.bg-navbar{
+    background-color: #F89D70;
+}
+
+
+/* //////////// Buttons-Page //////////////////// */
+
+.button {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+}
+.button:before {
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease;
+}
+.button:hover:before {
+    width: 100%;
+}
+
+/* //////////// Buttons-Page //////////////////// */
