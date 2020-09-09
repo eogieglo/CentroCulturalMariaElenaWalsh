@@ -5,10 +5,10 @@ import { Navbar, Nav } from 'react-bootstrap';
 class HeaderNavbar extends Component {
   render() {
     return (
-      <div className="container-fluid color1 shadow-lg p-3 sticky-top bg-nav-sticky">
+      <div className="container-fluid bg-color-nav shadow-lg p-3 sticky-top ">
         <div className="row justify-content-between">
           <div className="col-lg-1 col-md-2 d-none d-lg-block d-md-block">
-            <img src="/images/logo.jpg" className="img-fluid" alt="logo"></img>
+            <img src="/images/logo.png" className="img-fluid" alt="logo"></img>
 
           </div>
 
@@ -17,7 +17,7 @@ class HeaderNavbar extends Component {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                  <Nav.Link href="#nosotros">Nosotros</Nav.Link>
+                  <Nav.Link href="#nosotros" >Nosotros</Nav.Link>
                   <Nav.Link href="#a">Acciones Concretas</Nav.Link>
                   <Nav.Link href="#b">Involucrate</Nav.Link>
                   <Nav.Link href="#c">Contacto</Nav.Link>

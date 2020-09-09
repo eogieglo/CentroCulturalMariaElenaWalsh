@@ -3,11 +3,32 @@ body{
 }
 
 /* /////////////////////////////////// NavBar //////////////////////////////////// */
-
+.bg-info{
+    background-image: url('/images/bg-info-2.jpg');
+    background-size: cover;
+}
+.bg-cards{
+    background-image: url('/images/bg-cards.jpg');
+    background-size: cover;
+}
+.bg-donate{
+    background-image: url('/images/bg-donate.jpg');
+    background-size: cover;
+}
+.bg-subscribe{
+    background-image: url('/images/bg-subscribe.jpg');
+    background-size: cover;
+}
 .bg-color-container{
     background: rgba(252, 255, 102, 0.1);
 }
-
+.bg-color-nav{
+    background-color: rgb(255, 230, 234);
+}
+.bg-footer{
+    background-image: url('/images/bg-footer.jpg');
+    background-size: cover;
+}
 .link-donar{
     cursor: pointer;
     border: none;    
@@ -34,8 +55,35 @@ body{
     font-size: calc(1em + 3vw) ;  
     font-weight: 900;
     text-shadow: 2px 2px 2px black;
+}
+ .text-tittles{
+     font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+    color:white;
+    font-weight: 900;
+}   
+.subtitles{
+    font-size: 20px;
+}
+.txt-shadow{
+    text-shadow: 1px 1px 1px black
+}
+.small-size{
+    font-size: 17px;
+
+}
+
+.text-stiles{
+    font-style: italic;
+    color: white !important;
     
-    
+    font-weight: bold;
+}
+.bg-website {
+    background-color: rgba(255, 255, 255, 0.836);
+}
+.bg-navbar{
+    background-color: #F89D70;
 }
 
 .fsize-carousel{
@@ -67,35 +115,7 @@ body{
     background-size: cover;
 }
 
-.color1{
-    background-color: #FDE1A9;
-}
 
-.color2{
-    background-color: #F89D70;
-}
-
-.color3{
-    background-color: #D5544B;
-}
-
-.color4{
-    background-color: #A4CAED;
-}
-
-.color5{
-    background-color: #BADCF6;
-    
-}
-
-.color6{
-    background-color: #BADCF6;
-    
-}
-.color7{
-    background-color: #E3EAF3;
-    
-}
 
 .f-size{
     font-size: 30px;
@@ -113,22 +133,7 @@ body{
 
 /* /////////////////////////// Email-Form ///////////////////// */
 
-.text-email-form{
-    font-weight: bold;
-    font-size : 40px;
-    
-}
 
-.text-stiles{
-    font-style: italic;
-    color: white;
-}
-.bg-website {
-    background-color: #e7d9bc;
-}
-.bg-navbar{
-    background-color: #F89D70;
-}
 
 
 /* //////////// Buttons-Page //////////////////// */
@@ -158,3 +163,22 @@ body{
 }
 
 /* //////////// Buttons-Page //////////////////// */
+
+
+/* ///////////////// footer ////////// */
+div.footer a {
+    text-decoration: none;
+}
+
+div.footer a:hover {
+   font-size: 20px;
+}
+div.footer i:hover {
+    font-size: 20px;
+ }
+ p.parFooter i:hover{
+    font-size: 20px;
+ }
+
+
+ 

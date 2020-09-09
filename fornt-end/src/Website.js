@@ -5,6 +5,12 @@ import Presentation from './components/Presentation'
 import EmailForm from './components/EmailForm'
 import Map from './components/Map'
 import Donate from './components/Donate'
+import Subscribe from './components/Subscribe'
+import Footer from './components/Footer'
+import CardsHome from './components/CardsHome'
+
+
+
 
 
 
@@ -20,9 +26,9 @@ class Website extends Component {
         < EmailForm />
         < Map />
         <Donate/>
-        
-        
-
+        <Subscribe/>
+        <CardsHome/>
+        <Footer/>
       </div>
     )
   }
