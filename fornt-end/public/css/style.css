@@ -76,11 +76,14 @@ body{
 .text-stiles{
     font-style: italic;
     color: white !important;
-    
     font-weight: bold;
 }
+    
+
 .bg-website {
     background-color: rgba(255, 255, 255, 0.836);
+    
+
 }
 .bg-navbar{
     background-color: #F89D70;
@@ -180,5 +183,13 @@ div.footer i:hover {
     font-size: 20px;
  }
 
+ .style-footer-link{
+     color : black;
+     font-style: italic;
+     
+ }
 
- 
+ .parraphInfo{
+     text-align: justify;
+     font-weight: bold;
+ }

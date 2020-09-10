@@ -18,9 +18,11 @@ class HeaderNavbar extends Component {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                   <Nav.Link href="#nosotros" >Nosotros</Nav.Link>
-                  <Nav.Link href="#a">Acciones Concretas</Nav.Link>
-                  <Nav.Link href="#b">Involucrate</Nav.Link>
-                  <Nav.Link href="#c">Contacto</Nav.Link>
+                 
+                  <Nav.Link href="#involucrate">Involucrate</Nav.Link>
+                  <Nav.Link href="#contact">Tú consulta</Nav.Link>
+                  <Nav.Link href="#social">Redes sociales</Nav.Link>
+
                   <Nav.Link href="#d" className="btn link-donar ml-4 button"><span>DONAR</span></Nav.Link>
                 </Nav>
               </Navbar.Collapse>

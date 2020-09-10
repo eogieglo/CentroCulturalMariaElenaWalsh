@@ -8,7 +8,7 @@ import { Form, Button } from 'react-bootstrap';
 class Subscirbe extends Component {
     render() {
         return (
-            <div className="container bg-subscribe mt-3 shadow-container p-3 mb-5 rounded justify-content-center">
+            <div className="container bg-subscribe mt-4 shadow-container p-3 mb-2 rounded justify-content-center">
                 <div className="row justify-content-center">
                   
                     <div className="col-md-6 ">

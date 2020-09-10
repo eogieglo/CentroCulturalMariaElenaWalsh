@@ -8,7 +8,7 @@ class CarouselPage extends Component {
     return (
      
        
-        <div className="container-fluid shadow mb-5 bg-white rounded">
+        <div className="container-fluid shadow mb-3 bg-white rounded">
           <div className="row">
             <Carousel autoPlay={true} interval={2000}>  
      

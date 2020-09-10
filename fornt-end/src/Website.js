@@ -8,6 +8,9 @@ import Donate from './components/Donate'
 import Subscribe from './components/Subscribe'
 import Footer from './components/Footer'
 import CardsHome from './components/CardsHome'
+import BtnScrollTop from './components/ScrollTop'
+
+
 
 
 
@@ -29,6 +32,8 @@ class Website extends Component {
         <Subscribe/>
         <CardsHome/>
         <Footer/>
+        <BtnScrollTop/>
+        
       </div>
     )
   }

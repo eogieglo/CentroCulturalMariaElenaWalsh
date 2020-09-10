@@ -9,7 +9,7 @@ class EmailForm extends Component {
       
        
 
-        <div className="container background-container mt-3 shadow-container p-3 mb-5 rounded">
+        <div className="container background-container mt-3 shadow-container p-3 mb-2 rounded" id="contact">
           <Form>
             <div className="row">
               <div className="col-md-5">
