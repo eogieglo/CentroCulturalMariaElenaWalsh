@@ -193,3 +193,9 @@ div.footer i:hover {
      text-align: justify;
      
  }
+
+ Form .inputError {
+     color: red !important ; 
+     font-weight: bold;
+     font-style: italic;
+ }

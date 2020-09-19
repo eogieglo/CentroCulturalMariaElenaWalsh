@@ -11,8 +11,8 @@ class FooterLinks extends Component {
                     <a href="https://www.facebook.com/fundacionramseyer"> <p className="style-footer-link"><i className="fab fa-facebook mr-3"> </i> facebook</p> </a>
                     <a href="https://instagram.com/fundacion_ramseyer?igshid=682f0pgknio7"> <p className="style-footer-link"><i className="fab fa-instagram mr-3"> </i>Instagram </p></a>
                     <a href="https://twitter.com/Fundac_Ramseyer" > <p className="style-footer-link"><i className="fab fa-twitter mr-3"> </i>twitter</p></a>
-                    <a href="https://www.youtube.com/channel/UCAQxa29MmXK2fNRftUbGctw/featured"><p className="style-footer-link"><i class="fab fa-youtube mr-3"></i>Youtube</p></a>
-                    <p className="style-footer-link footerI"><i class="fas fa-phone-volume mr-3"></i>(3544) 49 67 49</p>
+                    <a href="https://www.youtube.com/channel/UCAQxa29MmXK2fNRftUbGctw/featured"><p className="style-footer-link"><i className="fab fa-youtube mr-3"></i>Youtube</p></a>
+                    <p className="style-footer-link footerI"><i className="fas fa-phone-volume mr-3"></i>(3544) 49 67 49</p>
                 </div>
             </div>
         )

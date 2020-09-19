@@ -6,7 +6,7 @@ class BtnScrollTop extends Component {
     return (
 
         <ScrollTop
-        text="TOP"
+        text="⏫"
         distance={100}
         breakpoint={768}
         style={{ backgroundColor: "pink", borderColor : "white"}}
