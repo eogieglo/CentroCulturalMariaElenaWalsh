@@ -9,6 +9,7 @@ import Subscribe from './components/Subscribe'
 import Footer from './components/Footer'
 import CardsHome from './components/CardsHome'
 import BtnScrollTop from './components/ScrollTop'
+import Video from './components/Video'
 
 
 
@@ -26,6 +27,7 @@ class Website extends Component {
         < HeaderNavbar />
         < CarouselPage />
         < Presentation />
+        <Video/>
         < EmailForm />
         < Map />
         <Donate/>

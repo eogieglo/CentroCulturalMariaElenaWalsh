@@ -58,7 +58,7 @@ class Subscirbe extends Component {
             console.log('formulario enviado')
             this.sendUser(notErrors)
             e.target.reset()
-            
+
         } else {
             e.preventDefault()
         }
@@ -97,7 +97,7 @@ class Subscirbe extends Component {
 
                             <Button className="button link-donar border-0 mt-2" type="submit">
                                 Suscribirme
-            </Button>
+                            </Button>
 
                         </Form>
                     </div>

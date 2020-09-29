@@ -23,7 +23,7 @@ class HeaderNavbar extends Component {
                   <Nav.Link href="#contact">Tú consulta</Nav.Link>
                   <Nav.Link href="#social">Redes sociales</Nav.Link>
 
-                  <Nav.Link href="#d" className="btn link-donar ml-4 button"><span>DONAR</span></Nav.Link>
+                  <Nav.Link href="https://donaronline.org/fundacion-beatriz-ramseyer-argentina/el-arte-salva" className="btn link-donar ml-4 button"><span>DONAR</span></Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
