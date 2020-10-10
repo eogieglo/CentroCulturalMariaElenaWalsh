@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Button } from 'react-bootstrap';
-import { Nav } from 'react-bootstrap';
+
 
 
 class EmailForm extends Component {
@@ -80,6 +80,11 @@ class EmailForm extends Component {
 
 
       <div className="container background-container mt-3 shadow-container p-3 mb-2 rounded" id="contact">
+      <div className="row justify-content-start">
+      <p className=" text-tittles mb-5 pl-3">"Envianos tu consulta ..."</p>
+      </div>
+      
+      
         <Form onSubmit={this.handleSubmit}>
           <div className="row">
             <div className="col-md-5">
@@ -120,7 +125,7 @@ class EmailForm extends Component {
                                Enviar
               </Button>
 
-              <p className=" text-tittles">"Envianos tu consulta ..."</p>
+             
 
             </Form.Group>
 

@@ -32,7 +32,7 @@ class Video extends Component {
                 <div className="row">
                     <iframe width="100%" height="400"  style={{ border: "0" }}  src="https://www.youtube.com/embed/jiQYa7ZWV8M" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
+                        title="video fundación">
                     </iframe>
 
                 </div>

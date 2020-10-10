@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="container bg-footer mt-4 shadow-container p-3 mb-1 rounded" id="social">
-                <div className="row  justify-content-center ">
+                <div className="row  justify-content-center pt-5 pb-4">
 
                     <div className="col-md-4 col-sm-12 d-flex flex-column mt-4 border-right" >
                         <h3 className="bg-color-item text-tittles">Comunicate</h3>
